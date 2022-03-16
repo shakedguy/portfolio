@@ -2,7 +2,7 @@ import path from 'path';
 import fs from 'fs/promises';
 
 export const buildFilePath = (fileName) => {
-  return path.join(process.cwd(), 'data', fileName);
+  return path.join(process.cwd(), 'pages', 'api', 'data', fileName);
 };
 
 export const extractFileData = async (path) => {
