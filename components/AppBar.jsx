@@ -13,8 +13,15 @@ const AppBar = ({ openHandler, colorMode, data }) => {
   const hoverColor = layoutCtx.currentColorMode === 'light' ? 'rgb(0, 150, 150)' : 'rgba(112, 128, 144, 0.1)';
 
   return (
-    <Flex h={'10vh'} bg={'teal'} alignItems={'center'} onClick={openHandler}>
-      <Container w={'fit-content'} borderRadius={'md'} p={1} mx={3} className='btn-cont' _hover={{ bg: hoverColor }}>
+    <Flex h={'10vh'} bg={'teal'} alignItems={'center'}>
+      <Container
+        w={'fit-content'}
+        onClick={openHandler}
+        borderRadius={'md'}
+        p={1}
+        mx={3}
+        className='btn-cont'
+        _hover={{ bg: hoverColor }}>
         <HamburgerIcon h={5} w={5} m={2} cursor={'pointer'} _hover={{ bg: hoverColor }} />
       </Container>
       <Link href='/' passHref>
