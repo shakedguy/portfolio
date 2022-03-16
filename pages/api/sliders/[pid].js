@@ -3,7 +3,10 @@ const handler = async (req, res) => {
   if (req.method === 'GET') {
     const filePath = buildFilePath('sliders.json');
     const data = await extractFileData(filePath);
-    const slider = data.sliders.find((slide) => slide.id === req.query.pid);
+    let slider = data.sliders.find((slide) => slide.id === req.query.pid);
+    if (!slider) {
+      slider = '404';
+    }
 
     res.status(200).json({
       slider,

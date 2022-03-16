@@ -1,4 +1,6 @@
 import '../styles/globals.css';
+import '../styles/cardStyle.css';
+import '../styles/overflowStyles.css';
 import { ChakraProvider } from '@chakra-ui/react';
 import Theme from '../theme';
 import Head from 'next/head';
