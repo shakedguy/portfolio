@@ -1,0 +1,118 @@
+.appBar {
+  /* font-family: Dosis; */
+  font-size: 20px;
+  margin: 0 10px;
+}
+
+.typewiter {
+  font-size: 14px;
+  text-align: left;
+  font-family: Special Elite;
+}
+
+.swiperTextLight {
+  padding: 10px 0;
+  font-size: 15px;
+  color: #333;
+}
+.swiperTextDark {
+  padding: 10px 0;
+  font-size: 15px;
+  color: #ebedf0;
+}
+.swiperHeader {
+  font-family: Dosis;
+  font-weight: 550;
+  font-size: 17px;
+  padding: 0 8px;
+  color: teal;
+}
+
+.footerTextLight {
+  color: #333;
+  font-size: 12px;
+  font-family: Raleway;
+}
+.footerTextDark {
+  color: #ebedf0;
+  font-size: 12px;
+  font-family: Raleway;
+}
+
+.contact {
+  font-size: 14px;
+  font-family: Raleway;
+}
+
+.modalTitletDark {
+  color: #ebedf0;
+  font-size: 18px;
+  font-family: Raleway;
+}
+.modalTitleLight {
+  color: #333;
+  font-size: 18px;
+  font-family: Raleway;
+}
+
+.modalTextDark {
+  color: #ebedf0;
+  font-size: 14px;
+  font-family: Raleway;
+}
+.modalTextLight {
+  color: #333;
+  font-size: 14px;
+  font-family: Raleway;
+}
+
+@media (min-width: 768px) {
+  .appBar {
+    font-size: 28px;
+    margin: 0 20px;
+  }
+  .typewiter {
+    font-size: 38px;
+  }
+
+  .swiperHeader {
+    font-size: 24px;
+  }
+
+  .swiperTextLight {
+    font-size: 20px;
+  }
+  .swiperTextDark {
+    font-size: 20px;
+  }
+  .footerTextLight {
+    font-size: 16px;
+  }
+  .footerTextDark {
+    font-size: 16px;
+  }
+  .contact {
+    font-size: 22px;
+  }
+  .modalTitletDark {
+    font-size: 20px;
+  }
+  .modalTitleLight {
+    font-size: 20px;
+  }
+  .modalTextDark {
+    font-size: 16px;
+  }
+  .modalTextLight {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 850px) and (max-width: 900px) and (min-height: 380px) and (max-height: 400px) and (orientation: landscape) {
+}
+
+@media (min-width: 380px) and (max-width: 400px) and (min-height: 850px) and (max-height: 900px) and (orientation: portrait) {
+}
+
+@media (min-width: 320px) and (max-width: 380px) and (min-height: 600px) and (max-height: 700px) and (orientation: portrait) {
+}
