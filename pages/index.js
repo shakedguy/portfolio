@@ -1,28 +1,27 @@
-import React, { useContext } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import TypeWriter from './../components/TypeWriter';
 import Layout from '../contexts/Layout';
-import { buildFilePath, extractFileData } from '../services/helpers';
 import { Box } from '@chakra-ui/react';
+import useSWR from 'swr';
+import { fetcher } from '../services/clientHelpers';
 
-const Home = ({ lines }) => {
+const Home = () => {
+  const { data, error } = useSWR('/api/home', fetcher);
+  const [lines, setLines] = useState(null);
   const layoutCtx = useContext(Layout);
   layoutCtx.setPageName('Home');
 
+  useEffect(() => {
+    if (data) {
+      setLines(data.lines);
+    }
+  }, [data]);
+
   return (
     <Box className='page' flex={1} alignSelf={'start'} justifySelf={'left'}>
-      <TypeWriter title={lines} />
+      {lines && <TypeWriter title={lines} />}
     </Box>
   );
-};
-
-export const getStaticProps = async () => {
-  const filePath = buildFilePath('home.json');
-  const data = await extractFileData(filePath);
-  return {
-    props: {
-      lines: [data.headers.first, data.headers.second],
-    },
-  };
 };
 
 export default Home;
