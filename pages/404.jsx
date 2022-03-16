@@ -16,7 +16,7 @@ const NotFoundPage = () => {
       <Flex dir='row'>
         <VStack className={style} boxShadow={'dark-lg'}>
           <Heading color={'#222'} py={10} as='h2' size={'lg'}>
-            we can't seem to find the page you're looking for.
+            We can not seem to find the page you are looking for.
           </Heading>
           <Text color={'#222'} fontSize={'1xl'}>
             To return to the home page, click
