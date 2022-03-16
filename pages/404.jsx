@@ -32,7 +32,6 @@ const NotFoundPage = () => {
             Home
           </Button>
         </VStack>
-
         <Img
           bg={'transparent'}
           h={'25.6rem'}
