@@ -28,7 +28,7 @@ const AppBar = ({ openHandler, colorMode, data }) => {
         <Img className='logo' src='/logo.png'></Img>
       </Link>
       <Heading as='h1' className={textClasses.appBar}>
-        <Link href={data.pages[index]}>{layoutCtx.pageName}</Link>
+        <Link href={data.pages[index] || '/'}>{layoutCtx.pageName}</Link>
       </Heading>
       <Spacer />
       <ThemeMenu colorMode={colorMode} />
