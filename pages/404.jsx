@@ -38,25 +38,6 @@ const NotFoundPage = () => {
           src='https://a0.muscache.com/airbnb/static/error_pages/404-Airbnb_final-d652ff855b1335dd3eedc3baa8dc8b69.gif'
         />
       </Flex>
-
-      {/* <VStack className={style} boxShadow={'dark-lg'}>
-        <Heading color={'#222'} py={10} as='h2' size={'lg'}>
-          Sorry, the page was not found...
-        </Heading>
-        <Text color={'#222'} fontSize={'1xl'}>
-          To return to the home page, click
-        </Text>
-        <Button
-          onClick={() => router.replace('/')}
-          variant={'outline'}
-          _hover={{ bg: 'gray.300' }}
-          color={'gray.900'}
-          borderColor={'gray.900'}
-          my={10}
-          leftIcon={<Icon as={IoHomeOutline} />}>
-          Home
-        </Button>
-      </VStack> */}
     </Center>
   );
 };
