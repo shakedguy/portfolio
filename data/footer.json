@@ -1,0 +1,29 @@
+{
+  "links": [
+    "tel:+972542422521",
+    "http://waze.com/ul?ll=32.08963893,34.77433562&navigate=yes",
+    "https://www.linkedin.com/in/shaked-guy",
+    "guy_shaked_cv.pdf",
+    "mailto:shakedguy94@gmail.com",
+    "https://github.com/shakedguy",
+    "https://wa.me/+972542422521"
+  ],
+  "tooltips": [
+    "Call me!",
+    "My address",
+    "My linkedin profile",
+    "My CV",
+    "Email me!",
+    "My github profile",
+    "Text me!"
+  ],
+  "colors": [
+    "teal.600",
+    "blue.700",
+    "blue.700",
+    "red.800",
+    "",
+    "purple.700",
+    "teal.600"
+  ]
+}

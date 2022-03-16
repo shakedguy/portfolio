@@ -1,0 +1,32 @@
+.overflow-swiper {
+  align-self: center;
+  width: 80vw;
+  height: 70vh;
+}
+
+.overflow-slide {
+  background-position: center;
+  background-size: cover;
+  width: 60%;
+  height: 100%;
+}
+
+.overflow-slide Img {
+  align-self: center;
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-pagination-bullet {
+  background-color: lightcoral;
+}
+.swiper-pagination-bullet-active {
+  background-color: lightcoral;
+}
+
+@media (min-width: 768px) {
+  .overflow-swiper {
+    width: 60vw;
+    height: 80vh;
+  }
+}

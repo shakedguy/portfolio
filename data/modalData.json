@@ -1,0 +1,55 @@
+{
+  "modals": [
+    {
+      "id": "csharp",
+      "title": "C#",
+      "body": [
+        "High-level object-oriented programming.",
+        "Desktop applications development in wpf and windows forms.",
+        "Web development in ASP.NET and Blazzor."
+      ]
+    },
+    {
+      "id": "cpp",
+      "title": "C & Cpp",
+      "body": ["High-level Console application development.", "Oop in cpp."]
+    },
+    {
+      "id": "js",
+      "title": "Javascript",
+      "body": [
+        "Vanilla and jquey knowledge for DOM",
+        "Full stack development in Node js, React, Next js"
+      ]
+    },
+    {
+      "id": "html",
+      "title": "Html & Css",
+      "body": ["High-level single-page web development."]
+    },
+    {
+      "id": "react",
+      "title": "React & Next Js",
+      "body": [
+        "High-level front-end development in React.",
+        "Full stack development in Next js.",
+        "Working with Third-party UI, Charts, Hooks libraries.",
+        "Workink with databases.",
+        "Connect to Firebase platforms."
+      ]
+    },
+    {
+      "id": "python",
+      "title": "Python",
+      "body": ["Basic knowledge of Python syntax"]
+    },
+    {
+      "id": "nodejs",
+      "title": "Node Js",
+      "body": [
+        "Restful api development.",
+        "Working with mongoDb database and mongoose."
+      ]
+    }
+  ]
+}

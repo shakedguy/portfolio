@@ -2,6 +2,7 @@ import '../styles/globals.css';
 import { ChakraProvider } from '@chakra-ui/react';
 import Theme from '../theme';
 import Head from 'next/head';
+import Page from '../components/Page';
 
 const App = (props) => {
   const { Component, pageProps } = props;
@@ -14,9 +15,9 @@ const App = (props) => {
         <link rel='icon' href='/favicon.png' />
         <meta charSet='UTF-8' />
       </Head>
-      <body>
+      <Page>
         <Component {...pageProps} />
-      </body>
+      </Page>
     </ChakraProvider>
   );
 };

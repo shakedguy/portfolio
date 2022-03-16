@@ -1,0 +1,17 @@
+{
+  "labels": [
+    "054-2422521",
+    "shakedguy94@gmail.com",
+    "www.linkedin.com/in/shaked-guy",
+    "github.com/shakedguy",
+    "Jabotinsky ST 11, Tel-Aviv, Israel"
+  ],
+  "iconsColor": ["teal.500", "red", "blue.600", "purple", "blue.600"],
+  "links": [
+    "tel:+972542422521",
+    "mailto:shakedguy94@gmail.com",
+    "https://www.linkedin.com/in/shaked-guy",
+    "https://github.com/shakedguy",
+    "http://waze.com/ul?ll=32.08963893,34.77433562&navigate=yes"
+  ]
+}

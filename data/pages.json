@@ -1,0 +1,18 @@
+{
+  "pages": [
+    "/",
+    "/about",
+    "experience",
+    "education&skills",
+    "mywork",
+    "contact"
+  ],
+  "titles": [
+    "Home",
+    "About",
+    "Experience",
+    "Education & Skills",
+    "My work",
+    "Contact"
+  ]
+}

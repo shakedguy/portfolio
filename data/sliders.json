@@ -1,0 +1,66 @@
+{
+  "sliders": [
+    {
+      "id": "about",
+      "title": "About",
+      "slides": [
+        {
+          "id": 1,
+          "title": null,
+          "data": [
+            "I am a 2nd year computer science student",
+            "on a special integrating studies & full-time job program.",
+            "I used to combine my degree with a full-time job in the Prime",
+            "Minister's office until this October.",
+            "I finished employment for the purpose of dedicate more time to school,",
+            "study harder and for searching a relevant student position that can advance me to a high-tech career."
+          ]
+        },
+        {
+          "id": 2,
+          "title": null,
+          "data": [
+            "I am looking for a student position in a company that will allow me to study",
+            "and develop as a programmer in hope of becoming a permanent employee upon graduation.",
+            "I have experience and skills in teamwork as well as military and employment experience as a team leader.",
+            "Over the years i haven’t acquired employment experience in the programming field,"
+          ]
+        },
+        {
+          "id": 3,
+          "title": null,
+          "data": [
+            "but i have acquired abilities and qualities of work ethic,",
+            "adaptation to a changing work environment; cool, efficient and effective functioning under pressure.",
+            "As well as creative thinking outside the box in a problem-solving approach as well as contending and successfully overcoming crises.",
+            "I believe these abilities combined with high motivation to work hard and learn new technologies and practical actions in the industry will enable me to contribute and give value-added to achieving my team goals."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "experience",
+      "title": "Experience",
+      "slides": [
+        {
+          "id": 1,
+          "title": ["2017-2020", "Operational • Prime Minister's office"],
+          "data": [
+            "• Prime Minister's Office - operations division.",
+            "• Planned and lead complex classified projects.",
+            "• Participated in classified field work."
+          ]
+        },
+        {
+          "id": 2,
+          "title": ["2013-2017", "Combat Officer"],
+          "data": [
+            "• Combat officer in the infantry.",
+            "• Command and management of 20 soldiers.",
+            "• Certificate of Outstanding Officer from the Division Commander"
+          ]
+        }
+      ]
+    }
+  ]
+}
