@@ -1,10 +1,16 @@
+import Router from 'next/router';
+import nProgress from 'nprogress';
 import '../styles/globals.css';
 import '../styles/cardStyle.css';
 import '../styles/overflowStyles.css';
+import '../styles/nprogress.css';
 import { ChakraProvider } from '@chakra-ui/react';
 import Theme from '../theme';
 import Head from 'next/head';
 import Page from '../components/Page';
+Router.events.on('routeChangeStart', nProgress.start);
+Router.events.on('routeChangeError', nProgress.done);
+Router.events.on('routeChangeComplete', nProgress.done);
 
 const App = (props) => {
   const { Component, pageProps } = props;
