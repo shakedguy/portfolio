@@ -11,7 +11,20 @@
   "dependencies": {
     "next": "12.1.0",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "@chakra-ui/icons": "^1.1.1",
+    "@chakra-ui/react": "^1.7.4",
+    "@fontsource/dosis": "^4.5.1",
+    "@fontsource/open-sans": "^4.5.2",
+    "@fontsource/raleway": "^4.5.0",
+    "nextjs-progressbar": "^0.0.13",
+    "react-icons": "^4.3.1",
+    "react-simple-typewriter": "^3.0.1",
+    "swiper": "^7.4.1",
+    "swr": "^1.1.2",
+    "typeface-dosis": "^1.1.13",
+    "typeface-raleway": "^1.1.13",
+    "typeface-special-elite": "^1.1.13"
   },
   "devDependencies": {
     "eslint": "8.11.0",
